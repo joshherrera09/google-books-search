@@ -1,5 +1,4 @@
-const { response } = require("express");
-const db = require("../model");
+const db = require("../models");
 
 module.exports = {
     findAll: function(request, response) {
