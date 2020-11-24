@@ -1,4 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Saved from "./pages/Saved";
+import Search from "./pages/Search";
+import Nav from "./components/Nav";
+import { Container } from "./components/Grid";
 import './App.css';
 
 function App() {
