@@ -1,7 +1,11 @@
-div.jumbotron {
-    background-image: url(https://unsplash.com/photos/v5gIzrQ_P60);
+.jumbotron {
+    background-image: url("../../assets/image2.jpg");
+}
+
+.thumbnail {
+    size: 40%;
 }
 
 .white {
-    color: floralwhite;
+    color: firebrick;
 }

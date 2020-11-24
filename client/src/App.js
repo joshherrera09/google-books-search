@@ -4,8 +4,8 @@ import Saved from "./pages/Saved";
 import Search from "./pages/Search";
 import Nav from "./components/Nav";
 import { Container } from "./components/Grid";
+import "react-toastify/dist/ReactToastify.css"
 import './App.css';
-import { render } from "@testing-library/react";
 
 class App extends Component {
   render() {
@@ -14,21 +14,10 @@ class App extends Component {
         <Nav />
         <Router>
           <Container>
-            <ToastContainer
-              position="top-center"
-              autoClose={4000}
-              transition={Zoom}
-              hideProgressBar
-              newestOnTop
-              closeOnClick
-              rtl={false}
-              pauseOnVisibilityChange
-              draggable={false}
-              />
             <Switch>
               <Route exact path="/" component={Search} />
               <Route path="/bookshelf" component={Saved} />
-              <ROute exact path="/books/:id" component={null} />
+              <Route exact path="/books/:id" component={null} />
               <Route component={null} />
             </Switch>
           </Container>

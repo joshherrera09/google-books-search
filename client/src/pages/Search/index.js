@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
-import AddBookbtn from "../../components/AddBookBtn";
+import AddBookbtn from "../../components/AddBookBtn/index.js";
 import { Row, Col } from "../../components/Grid";
 import { BookList, BookListItem } from "../../components/BookList";
 import EmptyList from "../../components/EmptyList";
 
-class Search extends Components {
+class Search extends Component {
     state = {
         searchRes: [],
         query: "",

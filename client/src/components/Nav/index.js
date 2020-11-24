@@ -1,10 +1,11 @@
 import React from "react";
 import Jumbotron from "../Jumbotron";
 
+
 function Nav() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
                 <a className="navbar-brand" id="homeLink" href="/">
                     Book Search
                 </a>
